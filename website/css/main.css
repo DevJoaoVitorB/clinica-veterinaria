@@ -37,25 +37,25 @@ body {
     min-height: 100vh;
     padding: 25px;
 
-    & a {
+    & .logo-link {
         text-align: center;
     }
 
-    & nav {
-        & ul {
+    & .nav {
+        & .nav-list {
             display: flex;
             flex-direction: column;
             gap: 20px;
 
-            & li {
+            & .nav-item {
                 width: max-content;
 
-                & a {
+                & .nav-link {
                     color: var(--white-text);
                     font-weight: bold;
                 }
 
-                & a::after {
+                & .nav-link::after {
                     content: '';
                     background-color: var(--white-text);
                     display: block;
@@ -65,7 +65,7 @@ body {
                     border-radius: 50px;
                 }
 
-                & a:hover::after {
+                & .nav-link:hover::after {
                     width: 100%;
                     transition: 0.5s;
                 }
@@ -88,14 +88,14 @@ body {
         padding: 50px;
 
         & .primary-logo {
-            & span.wordmark {
+            & .wordmark {
                 color: var(--black-text);
             }
         }
 
-        & div {
-            & span {
-                & h3 {
+        & .clinic-details {
+            & > span {
+                & > h3 {
                     color: var(--black-text);
                 }
             }
@@ -111,16 +111,16 @@ body {
             gap: 50px;
             padding: 25px;
 
-            & div {
+            & .about-details {
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
 
-                & span {
+                & .wordmark {
                     color: var(--primary-color);
                 }
 
-                & p {
+                & .about-content {
                     color: var(--black-text);
                     margin-bottom: 15px;
                     width: 400px;
@@ -158,7 +158,7 @@ body {
                 gap: 15px;
                 padding: 100px 50px;
 
-                & i {
+                & .bi {
                     font-size: 50px;
                 }
 
@@ -182,30 +182,30 @@ body {
     & .services-content {
         & #table-hours {
             & .table-body {
-                & tr {
-                    & td {
+                & > tr {
+                    & > td {
                         padding: 10px;
                         border-bottom: 1px solid #ddd;
 
-                        & i {
+                        & .bi {
                             color: red;
                             font-size: large;
                             font-weight: bold;
                         }
 
-                        & p {
+                        & .appointment-services {
                             display: flex;
                             align-items: center;
                             gap: 10px;
-                        }
-                    }
 
-                    & .appointment {
-                        background-color: var(--primary-color);
-                        color: var(--white-text);
-                        padding: 5px;
-                        border-radius: 10px;
-                        font-size: xx-small;
+                            & .appointment {
+                                background-color: var(--primary-color);
+                                color: var(--white-text);
+                                padding: 5px;
+                                border-radius: 10px;
+                                font-size: xx-small;
+                            }
+                        }
                     }
 
                     & .hours {
@@ -220,7 +220,7 @@ body {
 
         & #table-plans {
             & .table-body {
-                & tr {
+                & > tr {
                     & .plan-price {
                         text-align: center;
                         padding: 40px;
@@ -240,7 +240,7 @@ body {
                             }
                         }
 
-                        & p {
+                        & > p {
                             font-size: larger;
                             color: var(--secondary-color);
                         }
@@ -256,7 +256,7 @@ body {
                             padding-bottom: 10px;
                             border-bottom: solid 1px #ddd;
 
-                            & i {
+                            & .bi {
                                 color: var(--secondary-color);
                             }
                         }
@@ -268,8 +268,8 @@ body {
                 background-color: var(--table-background);
                 text-align: center;
 
-                & tr {
-                    & td {
+                & > tr {
+                    & > td {
                         & .plan-signup-btn {
                             background-color: var(--primary-color);
                             color: var(--white-text);
@@ -285,6 +285,63 @@ body {
                         & .plan-signup-btn:hover {
                             scale: 1.1;
                             transition: 0.5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* Conteúdo da Página Sobre Nós */
+    & .about-content {
+        & .hero {
+            & .about-details {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 150px;
+
+                & .about-content {
+                    width: 500px;
+                    line-height: 1.5;
+                }
+            }
+        }
+
+        & .service-areas {
+            padding: 70px;
+
+            & .section-title {
+                & .sub-title {
+                    margin-bottom: 50px;
+                }
+            }
+
+            & .services {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 50px;
+                margin: 0 auto;
+                max-width: 1300px;
+
+                & .service-card {
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+
+                    & .bi {
+                        color: var(--primary-color);
+                        font-size: 40px;
+                    }
+
+                    & .services-details {
+                        & .services-title {
+                            margin-bottom: 10px;
+                        }
+
+                        & .services-content {
+                            width: 350px;
                         }
                     }
                 }
@@ -316,13 +373,13 @@ body {
     align-items: center;
     gap: 25px;
 
-    & li {
-        & a {
+    & .social-item {
+        & .social-link {
             color: rgba(255, 255, 255, 0.8);
             padding: 10px;
         }
 
-        & a:hover {
+        & .social-link:hover {
             color: var(--white-text);
         }
     }
@@ -341,14 +398,14 @@ body {
     align-items: center;
     gap: 200px;
 
-    & div {
-        & h2 {
+    & .hero-details {
+        & .hero-title {
             margin-bottom: 25px;
             width: 300px;
             font-weight: normal;
         }
 
-        & p {
+        & .hero-content {
             width: 400px;
             font-size: smaller;
             line-height: 1.5;
@@ -415,12 +472,12 @@ body {
     align-items: center;
     gap: 10px;
 
-    & i {
+    & .bi {
         font-size: 30px;
     }
 
-    & span {
-        & h3 {
+    & > span {
+        & > h3 {
             margin-bottom: 5px;
             font-weight: bold;
             font-size: medium;
@@ -437,13 +494,13 @@ body {
     color: var(--secondary-color);
     text-align: center;
 
-    & h2 {
+    & .title {
         font-size: xx-large;
         font-weight: normal;
         margin-bottom: 5px;
     }
 
-    & h3 {
+    & .sub-title {
         font-size: smaller;
         font-weight: normal;
         letter-spacing: 1px;
