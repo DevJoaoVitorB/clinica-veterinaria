@@ -13,6 +13,7 @@
 
     --black-text: #000000;
     --white-text: #ffffff;
+    --white-secondary-text: rgba(255, 255, 255, 0.7);
     --secondary-text: #565656;
 
     --table-background: #fafafa;
@@ -53,8 +54,12 @@ body {
                 width: max-content;
 
                 & .nav-link {
-                    color: var(--white-text);
+                    color: var(--white-secondary-text);
                     font-weight: bold;
+                }
+
+                & .nav-link:hover {
+                    color: var(--white-text);
                 }
 
                 & .nav-link::after {
@@ -482,7 +487,7 @@ body {
 
     & .social-item {
         & .social-link {
-            color: rgba(255, 255, 255, 0.8);
+            color: var(--white-secondary-text);
             padding: 10px;
         }
 
@@ -490,6 +495,11 @@ body {
             color: var(--white-text);
         }
     }
+}
+
+/* Links Ativos */
+.active-link {
+    color: var(--white-text) !important;
 }
 
 /* Hero das Páginas */
