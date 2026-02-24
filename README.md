@@ -17,7 +17,7 @@ criada para simular um ambiente real de atendimento a pets e
 seus tutores.
 
 A aplicação apresenta informações institucionais, serviços oferecidos,
-horários de atendimento e uma página de contato com formulário funcional
+horários de atendimento, planos mensais e uma página de contato com formulário para feedback dos tutores
 e localização.
 
 O projeto segue um padrão estrutural comum em todas as páginas, com menu
@@ -48,7 +48,7 @@ animal.
 
 📷 **Preview da Página**
 
-![Homepage](/website_images/homepage.png)
+![Homepage](/website_gifs/homepage.gif)
 
 ------------------------------------------------------------------------
 
@@ -59,7 +59,7 @@ compromisso com os pets.
 
 📷 **Preview da Página** 
 
-![About](/website_images/about.png)
+![About](/website_gifs/about.gif)
 
 ------------------------------------------------------------------------
 
@@ -70,8 +70,8 @@ funcionamento e planos mensais.
 
 📷 **Preview da Página**
 
-![Services](/website_images/services1.png)
-![Services](/website_images/services2.png)
+![Services](/website_gifs/services.gif)
+
 
 ------------------------------------------------------------------------
 
@@ -82,8 +82,7 @@ para envio de mensagens.
 
 📷 **Preview da Página**
 
-![Contact](/website_images/contact1.png)
-![Contact](/website_images/contact2.png)
+![Contact](/website_gifs/contact.gif)
 
 ------------------------------------------------------------------------
 
