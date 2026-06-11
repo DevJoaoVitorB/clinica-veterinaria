@@ -1,106 +1,151 @@
-# 🐾 Vida de Pet - Clínica Veterinária
+# 🚀 Vida de Pet - Clínica Veterinária
 
-Projeto desenvolvido como desafio prático do
-**Módulo II - HTML I: Conceitos Básicos**
-do curso de **HTML5 da [DIO.me](https://web.dio.me/)**.
+Site institucional fictício de uma clínica veterinária desenvolvido como desafio prático proposto no **Módulo II - HTML I: Conceitos Básicos do curso de HTML5** da [**DIO.me**](https://www.dio.me/). O projeto tem como objetivo aplicar os principais conceitos de HTML na construção de páginas web estruturadas, navegáveis e funcionais.
 
-O objetivo foi construir um site completo aplicando na prática os
-principais fundamentos de HTML, incluindo estruturação de páginas,
-formulários, tabelas, mídias e organização semântica do conteúdo.
+### Status do Projeto: ✅ Concluído
 
 <br>
 
-## 📌 Sobre o Projeto
+## 📋 Sobre o Projeto
 
-O site representa uma clínica veterinária fictícia chamada **Vida de Pet**, 
-criada para simular um ambiente real de atendimento a pets e
-seus tutores.
+O **Vida de Pet** é um site desenvolvido para simular a presença digital de uma clínica veterinária, apresentando informações institucionais, serviços, horários de atendimento, planos mensais e canais de contato para tutores de animais.
 
-A aplicação apresenta informações institucionais, serviços oferecidos,
-horários de atendimento, planos mensais e uma página de contato com formulário para feedback dos tutores
-e localização.
+O projeto foi criado com foco no aprendizado dos fundamentos do desenvolvimento web utilizando HTML5, explorando elementos semânticos, formulários, tabelas, mídias e navegação entre páginas.
 
-O projeto segue um padrão estrutural comum em todas as páginas, com menu
-de navegação, cabeçalho, área de conteúdo e rodapé.
+### Objetivo
 
-<br>
+Aplicar os conceitos fundamentais de HTML5 através da criação de um site completo e organizado, simulando um cenário real de negócio.
 
-## 🎯 Objetivos do Desafio
+### Problema Resolvido
 
--   Aplicar conceitos fundamentais de HTML5
--   Estruturar páginas web de forma organizada
--   Utilizar formulários para coleta de dados
--   Exibir informações em tabelas
--   Inserir mídias e conteúdos diversos
--   Criar navegação entre páginas
--   Desenvolver um site funcional com múltiplas seções
+Muitas clínicas e pequenos negócios necessitam de uma presença digital para divulgar seus serviços, horários e formas de contato. Este projeto demonstra como construir uma solução web simples e eficiente utilizando apenas tecnologias básicas do front-end.
 
 <br>
 
-## 🧩 Estrutura do Site
+## ✨ Funcionalidades
 
-O site é composto pelas seguintes páginas:
+### Funcionalidades Implementadas
 
-### 🏠 Página Principal
-
-Apresenta uma introdução à clínica e sua proposta de cuidado e bem-estar
-animal.
-
-📷 **Preview da Página**
-
-![Homepage](/website_gifs/homepage.gif)
-
-------------------------------------------------------------------------
-
-### 🐶 Sobre a Clínica
-
-Seção institucional com informações gerais, missão de atendimento e
-compromisso com os pets.
-
-📷 **Preview da Página** 
-
-![About](/website_gifs/about.gif)
-
-------------------------------------------------------------------------
-
-### ⏰ Horário de Atendimento e Planos
-
-Apresenta os serviços oferecidos compondo uma tabela com horários de
-funcionamento e planos mensais.
-
-📷 **Preview da Página**
-
-![Services](/website_gifs/services.gif)
-
-
-------------------------------------------------------------------------
-
-### 📞 Contato
-
-Página com informações de comunicação, localização via mapa e formulário
-para envio de mensagens.
-
-📷 **Preview da Página**
-
-![Contact](/website_gifs/contact.gif)
-
-------------------------------------------------------------------------
-
-## 🧪 Recursos HTML Utilizados
-
-O projeto utiliza diversos elementos fundamentais do HTML, como:
-
--   Estrutura semântica de páginas
--   Listas e formatação de texto
--   Inserção de imagens
--   Tabelas de informações
--   Formulários com campos variados
--   Iframe para localização
--   Navegação entre páginas
--   Organização por seções
+* [x] Página inicial institucional
+* [x] Página sobre a clínica
+* [x] Página de serviços e horários de atendimento
+* [x] Tabela de planos e serviços
+* [x] Formulário de contato
+* [x] Integração com mapa via iframe
+* [x] Navegação entre páginas
+* [x] Estrutura semântica utilizando HTML5
+* [x] Inserção de imagens e conteúdos multimídia
 
 <br>
 
-## ⚙️ Stack
+## 🛠️ Tecnologias Utilizadas
 
-[![Stack](https://skillicons.dev/icons?i=html,css,bootstrap,&perline=3)](https://skillicons.dev)
+### Front-end
+
+![Stack Frontend](https://skillicons.dev/icons?i=html,css,bootstrap)
+
+### Ferramentas
+
+![Tools](https://skillicons.dev/icons?i=vscode,git,github)
+
+<br>
+
+## 🏗️ Arquitetura do Projeto
+
+O projeto segue uma arquitetura simples baseada em páginas estáticas, organizadas por navegação interna entre documentos HTML.
+
+Características da arquitetura:
+
+* Estrutura baseada em páginas independentes
+* Separação entre conteúdo (HTML) e estilização (CSS)
+* Navegação por links internos
+* Organização semântica utilizando elementos HTML5
+
+<br>
+
+## 📂 Estrutura de Diretórios
+
+```text
+vida-de-pet/
+│
+├── website/                 # Código-fonte do site
+│   │
+│   ├── assets/              # Arquivos estáticos utilizados pela aplicação
+│   │   ├── css/             # Folhas de estilo CSS
+│   │   └── images/          # Imagens utilizadas nas páginas
+│   │
+│   ├── index.html           # Página inicial da clínica
+│   ├── about.html           # Página institucional sobre a clínica
+│   ├── services.html        # Página de serviços, horários e planos
+│   └── contact.html         # Página de contato e localização
+│
+├── website_gifs/
+│
+└── README.md
+```
+
+<br>
+
+## ⚙️ Pré-requisitos
+
+Antes de iniciar, você precisará ter instalado:
+
+* Navegador Web (Chrome, Brave, Microsoft Edge, ...)
+* Git (opcional)
+* Editor de código (recomendado: VS Code)
+
+<br>
+
+## 🚀 Como Executar
+
+### 1. Clonar o Repositório
+
+```bash
+git clone https://github.com/DevJoaoVitorB/clinica-veterinaria.git
+```
+
+### 2. Entrar na Pasta
+
+```bash
+cd website
+```
+
+### 3. Executar o Projeto
+
+Abra o arquivo principal:
+
+```bash
+index.html
+```
+
+> [!IMPORTANT]
+> Ou utilize a extensão **Live Server do VS Code** para uma melhor experiência.
+
+<br>
+
+## 📸 Screenshots
+
+### Tela Inicial
+
+![Tela Inicial](website_gifs/homepage.gif)
+
+### Sobre a Clínica
+
+![Sobre a Clínica](website_gifs/about.gif)
+
+### Horários e Planos
+
+![Horários e Planos](website_gifs/services.gif)
+
+### Contato
+
+![Contato](website_gifs/contact.gif)
+
+<br>
+
+## 👨‍💻 Autor
+
+| **DevJoaoVitorB** |
+| ----------------- |
+| ![Foto de Perfil - DevJoaoVitorB](https://avatars.githubusercontent.com/u/182047578?s=100&v=4) |
+| [![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/DevJoaoVitorB) [![Linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/devjoaovitorb) |
