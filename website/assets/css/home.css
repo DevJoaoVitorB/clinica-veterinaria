@@ -1,0 +1,114 @@
+.homepage-content .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    padding: 25px;
+}
+
+.homepage-content .about-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.homepage-content .about-details .wordmark {
+    color: var(--primary-color);
+}
+
+.homepage-content .about-content {
+    width: 400px;
+
+    margin-bottom: 15px;
+
+    color: var(--black-text);
+    font-size: smaller;
+    line-height: 1.5;
+}
+
+.homepage-content .button {
+    width: 145px;
+    padding: 15px;
+
+    color: var(--primary-color);
+
+    text-align: center;
+
+    border: 1px solid var(--primary-color);
+}
+
+.homepage-content .stats {
+    background:
+        linear-gradient(rgba(59, 117, 113, 0.5), var(--secondary-color)),
+        url('https://images.pexels.com/photos/6235017/pexels-photo-6235017.jpeg');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.homepage-content .stats-item {
+    color: var(--white-text);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 15px;
+
+    padding: 100px 50px;
+}
+
+.homepage-content .stats-item .bi {
+    font-size: 50px;
+}
+
+.homepage-content .number {
+    font-size: xx-large;
+}
+
+.homepage-content .label {
+    font-size: medium;
+}
+
+.homepage-content .our-team {
+    padding: 25px;
+    text-align: center;
+}
+
+/* ================================================== RESPONSIVIDADE ================================================== */
+
+@media (max-width: 1024px) {
+    .homepage-content .about img,
+    .homepage-content .our-team img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .homepage-content .about-details {
+        align-items: center;
+        text-align: center;
+    }
+
+    .homepage-content .stats {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .homepage-content .stats-item {
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .homepage-content .button {
+        width: 100%;
+        max-width: 250px;
+    }
+}

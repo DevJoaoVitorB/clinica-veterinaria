@@ -1,0 +1,54 @@
+.service-areas {
+    padding: 70px;
+}
+
+.service-areas .sub-title {
+    margin-bottom: 50px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 50px;
+
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.service-card {
+    display: flex;
+    gap: 10px;
+}
+
+.service-card .bi {
+    color: var(--primary-color);
+    font-size: 40px;
+}
+
+.services-title {
+    margin-bottom: 10px;
+}
+
+.services-content {
+    width: 350px;
+}
+
+/* ================================================== RESPONSIVIDADE ================================================== */
+
+@media (max-width: 1024px) {
+    .service-areas {
+        padding: 40px 20px;
+    }
+
+    .service-card {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .services-content {
+        width: 100%;
+    }
+}

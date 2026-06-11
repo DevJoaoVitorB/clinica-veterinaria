@@ -3,129 +3,169 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Contato | Vida de Pet - Clínica Veterinária em Natal RN</title>
+
+        <meta
+            name="description"
+            content="Entre em contato com a Vida de Pet. Tire dúvidas, envie sugestões, agende atendimentos e encontre nossa localização em Natal-RN."
+        />
+
         <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/contact.css" />
+
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
         />
-        <title>Contatos</title>
     </head>
+
     <body>
         <div id="layout">
             <!-- Menu Lateral -->
             <aside class="menu">
-                <!-- Marca Gráfica -->
                 <a class="logo-link" href="index.html">
                     <img
-                        width="100px"
+                        width="100"
                         src="assets/images/logo_branca.png"
-                        alt="Logo da Clínica Patas & Vida"
+                        alt="Logo da Clínica Veterinária Vida de Pet"
                     />
                 </a>
 
-                <!-- Opções de Menu -->
-                <nav class="nav">
+                <nav class="nav" aria-label="Navegação principal">
                     <ul class="nav-list">
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html"
-                                >Sobre a Clínica</a
+                            <a
+                                class="nav-link"
+                                href="about.html"
+                                aria-current="page"
                             >
+                                Sobre a Clínica
+                            </a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" href="services.html"
-                                >Horários e Planos</a
-                            >
+                            <a class="nav-link" href="services.html">
+                                Horários e Planos
+                            </a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="active-link nav-link" href="contact.html">Contatos</a>
+                            <a class="active-link nav-link" href="contact.html">
+                                Contatos
+                            </a>
                         </li>
                     </ul>
                 </nav>
 
-                <!-- Redes Sociais da Clínica -->
-                <ul class="social-midia">
-                    <li class="social-item">
-                        <a class="social-link" href="#"
-                            ><i class="bi bi-instagram"></i
-                        ></a>
-                    </li>
-                    <li class="social-item">
-                        <a class="social-link" href="#"
-                            ><i class="bi bi-twitter-x"></i
-                        ></a>
-                    </li>
-                    <li class="social-item">
-                        <a class="social-link" href="#"
-                            ><i class="bi bi-youtube"></i
-                        ></a>
-                    </li>
-                </ul>
+                <nav aria-label="Redes sociais">
+                    <ul class="social-midia">
+                        <li class="social-item">
+                            <a
+                                class="social-link"
+                                href="#"
+                                aria-label="Instagram"
+                            >
+                                <i
+                                    class="bi bi-instagram"
+                                    aria-hidden="true"
+                                ></i>
+                            </a>
+                        </li>
+
+                        <li class="social-item">
+                            <a
+                                class="social-link"
+                                href="#"
+                                aria-label="X (Twitter)"
+                            >
+                                <i
+                                    class="bi bi-twitter-x"
+                                    aria-hidden="true"
+                                ></i>
+                            </a>
+                        </li>
+
+                        <li class="social-item">
+                            <a
+                                class="social-link"
+                                href="#"
+                                aria-label="YouTube"
+                            >
+                                <i class="bi bi-youtube" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </aside>
 
             <div id="page">
-                <!-- Header do Site -->
+                <!-- Cabeçalho -->
                 <header class="header">
-                    <!-- Marca Gráfica Completa -->
                     <div class="primary-logo">
                         <img
-                            width="75px"
+                            width="75"
                             src="assets/images/logo_verde.png"
-                            alt="Logo da Clínica Patas & Vida"
+                            alt="Logo da Clínica Veterinária Vida de Pet"
                         />
-                        <span class="wordmark">
+
+                        <div class="wordmark">
                             <h1 class="part1">Vida de Pet</h1>
-                            <h2 class="part2">Clínica Veterinária</h2>
-                        </span>
+
+                            <p class="part2">Clínica Veterinária</p>
+                        </div>
                     </div>
 
-                    <!-- Endereço da Clínica -->
-                    <div class="clinic-details">
-                        <i class="bi bi-geo-alt-fill"></i>
+                    <address class="clinic-details">
+                        <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
 
                         <span>
-                            <h3>Endereço</h3>
-                            <address class="clinic-info">
+                            <h2>Endereço</h2>
+
+                            <p class="clinic-info">
                                 Avenida Senador Salgado Filho, nº 1559, Tirol,
                                 Natal-RN
-                            </address>
+                            </p>
                         </span>
-                    </div>
+                    </address>
 
-                    <!-- Horário de Funcionamento -->
                     <div class="clinic-details">
-                        <i class="bi bi-clock-fill"></i>
+                        <i class="bi bi-clock-fill" aria-hidden="true"></i>
 
                         <span>
-                            <h3>Atendimento</h3>
+                            <h2>Atendimento</h2>
+
                             <p class="clinic-info">Seg-Sex 9h às 17h</p>
                         </span>
                     </div>
 
-                    <!-- Contato da Coleta Domiciliar -->
                     <div class="clinic-details">
-                        <i class="bi bi-car-front-fill"></i>
+                        <i class="bi bi-car-front-fill" aria-hidden="true"></i>
 
                         <span>
-                            <h3>Coleta Domiciliar</h3>
+                            <h2>Coleta Domiciliar</h2>
+
                             <p class="clinic-info">(84) 9 9999-9999</p>
                         </span>
                     </div>
                 </header>
 
                 <!-- Conteúdo Principal -->
-                <main class="contact-content">
+                <main id="main-content" class="contact-content">
                     <!-- Hero da Página -->
-                    <section class="hero">
+                    <section class="hero" aria-labelledby="contact-title">
                         <img
-                            width="300px"
+                            width="300"
                             src="https://imgs.search.brave.com/6TuZ7dfZW4pZTCMlL36P0VVyjqB76i1x5j4fOsa5rZE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMTAvQ3V0/ZS1QZXQtTm8tQmFj/a2dyb3VuZC5wbmc"
-                            alt="Cachorro da Clínica"
+                            alt="Cachorro representando atendimento veterinário"
                         />
+
                         <div class="hero-details">
-                            <h2 class="hero-title">
+                            <h1 id="contact-title" class="hero-title">
                                 Queremos cuidar do seu pet com você,
                                 <strong>fale conosco</strong>
-                            </h2>
+                            </h1>
+
                             <p class="hero-content">
                                 Estamos prontos para ouvir você e oferecer o
                                 melhor cuidado para o seu pet. Envie sua
@@ -135,82 +175,96 @@
                         </div>
                     </section>
 
-                    <!-- Área de Feedback -->
-                    <section class="feedback-area">
-                        <span class="section-title">
-                            <h2 class="title">
-                                Formulário de <strong>Feedback</strong>
+                    <!-- Formulário -->
+                    <section
+                        class="feedback-area"
+                        aria-labelledby="feedback-title"
+                    >
+                        <header class="section-title">
+                            <h2 id="feedback-title" class="title">
+                                Formulário de
+                                <strong>Feedback</strong>
                             </h2>
-                            <h3 class="sub-title">Queremos sua opinião!</h3>
-                        </span>
+
+                            <p class="sub-title">Queremos sua opinião!</p>
+                        </header>
 
                         <form
                             name="feedback-form"
                             class="feedback-form"
                             action="#"
                             method="post"
+                            aria-label="Formulário de feedback"
                         >
                             <div class="personal-info">
                                 <div class="field">
-                                    <label for="name"
-                                        >Nome
-                                        <span class="requirement"
-                                            >*</span
-                                        ></label
-                                    >
+                                    <label for="name">
+                                        Nome
+                                        <span class="requirement">*</span>
+                                    </label>
+
                                     <input
                                         name="name"
                                         id="name"
                                         class="input"
                                         type="text"
                                         required
+                                        autocomplete="name"
                                         placeholder="Informe seu nome"
                                     />
                                 </div>
+
                                 <div class="field">
-                                    <label for="email"
-                                        >E-mail
-                                        <span class="requirement"
-                                            >*</span
-                                        ></label
-                                    >
+                                    <label for="email">
+                                        E-mail
+                                        <span class="requirement">*</span>
+                                    </label>
+
                                     <input
                                         name="email"
                                         id="email"
                                         class="input"
                                         type="email"
                                         required
+                                        autocomplete="email"
                                         placeholder="Informe seu e-mail"
                                     />
                                 </div>
                             </div>
 
                             <div class="field">
-                                <label for="feedback"
-                                    >Feedback
-                                    <span class="requirement">*</span></label
-                                >
+                                <label for="feedback">
+                                    Feedback
+                                    <span class="requirement">*</span>
+                                </label>
+
                                 <textarea
                                     name="feedback"
                                     id="feedback"
                                     class="input"
                                     rows="10"
-                                    cols="50"
                                     required
-                                    placeholder="Ótimo atendimento..."
+                                    placeholder="Conte-nos sua experiência..."
                                 ></textarea>
                             </div>
 
-                            <div class="rating">
+                            <fieldset class="rating">
+                                <legend>
+                                    Como você avalia nosso atendimento?
+                                </legend>
+
                                 <input
                                     type="radio"
                                     id="star5"
                                     name="rating"
                                     value="5"
                                 />
-                                <label for="star5"
-                                    ><i class="bi bi-star-fill"></i
-                                ></label>
+                                <label for="star5">
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="sr-only" hidden>
+                                        5 estrelas
+                                    </span>
+                                </label>
 
                                 <input
                                     type="radio"
@@ -218,9 +272,12 @@
                                     name="rating"
                                     value="4"
                                 />
-                                <label for="star4"
-                                    ><i class="bi bi-star-fill"></i
-                                ></label>
+                                <label for="star4">
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="sr-only" hidden>
+                                        4 estrelas
+                                    </span>
+                                </label>
 
                                 <input
                                     type="radio"
@@ -228,9 +285,12 @@
                                     name="rating"
                                     value="3"
                                 />
-                                <label for="star3"
-                                    ><i class="bi bi-star-fill"></i
-                                ></label>
+                                <label for="star3">
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="sr-only" hidden>
+                                        3 estrelas
+                                    </span>
+                                </label>
 
                                 <input
                                     type="radio"
@@ -238,9 +298,12 @@
                                     name="rating"
                                     value="2"
                                 />
-                                <label for="star2"
-                                    ><i class="bi bi-star-fill"></i
-                                ></label>
+                                <label for="star2">
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="sr-only" hidden>
+                                        2 estrelas
+                                    </span>
+                                </label>
 
                                 <input
                                     type="radio"
@@ -248,28 +311,38 @@
                                     name="rating"
                                     value="1"
                                 />
-                                <label for="star1"
-                                    ><i class="bi bi-star-fill"></i
-                                ></label>
-                            </div>
+                                <label for="star1">
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="sr-only" hidden>
+                                        1 estrela
+                                    </span>
+                                </label>
+                            </fieldset>
 
                             <button class="submit-btn hover-btn" type="submit">
-                                Enviar
+                                Enviar Feedback
                             </button>
                         </form>
                     </section>
 
-                    <section class="localization">
-                        <span class="section-title">
-                            <h2 class="title">
-                                Localização e <strong>Contato</strong>
+                    <!-- Localização -->
+                    <section
+                        class="localization"
+                        aria-labelledby="location-title"
+                    >
+                        <header class="section-title">
+                            <h2 id="location-title" class="title">
+                                Localização e
+                                <strong>Contato</strong>
                             </h2>
-                            <h3 class="sub-title">
-                                Venha até nós ou fale conosco!
-                            </h3>
-                        </span>
+
+                            <p class="sub-title">
+                                Venha até nós ou fale conosco
+                            </p>
+                        </header>
 
                         <iframe
+                            title="Mapa da localização da Clínica Vida de Pet"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.6547136611948!2d-35.20450057606673!3d-5.8119034301194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ffe4d7b15191%3A0x73e092cb5e1e6984!2sAv.%20Sen.%20Salgado%20Filho%2C%201559%20-%20Tirol%2C%20Natal%20-%20RN%2C%2059015-000!5e0!3m2!1spt-BR!2sbr!4v1771608858491!5m2!1spt-BR!2sbr"
                             width="600"
                             height="450"
@@ -279,62 +352,77 @@
                             referrerpolicy="no-referrer-when-downgrade"
                         ></iframe>
 
-                        <button type="button" class="contact-btn hover-btn">
-                            <i class="bi bi-whatsapp"></i> Entre em contato
-                            agora (84) 9 9999-9999
-                        </button>
+                        <a
+                            href="https://wa.me/5584999999999"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="contact-btn hover-btn"
+                            aria-label="Entrar em contato pelo WhatsApp"
+                        >
+                            <i class="bi bi-whatsapp"></i>
+                            Entre em contato agora (84) 9 9999-9999
+                        </a>
                     </section>
                 </main>
 
-                <!-- Rodapé do Site-->
+                <!-- Rodapé -->
                 <footer class="footer">
-                    <!-- Marca Gráfica Completa -->
                     <div class="primary-logo">
-                        <img
-                            width="75px"
-                            src="assets/images/logo_branca.png"
-                            alt="Logo da Clínica Patas & Vida"
-                        />
-                        <span class="wordmark">
-                            <h1 class="part1">Vida de Pet</h1>
-                            <h2 class="part2">Clínica Veterinária</h2>
-                        </span>
+                        <figure>
+                            <img
+                                width="75"
+                                src="assets/images/logo_branca.png"
+                                alt="Logo da Clínica Veterinária Vida de Pet"
+                            />
+                        </figure>
+
+                        <div class="wordmark">
+                            <p class="part1">Vida de Pet</p>
+
+                            <p class="part2">Clínica Veterinária</p>
+                        </div>
                     </div>
 
-                    <div class="footer-details">
-                        <!-- Endereço da Clínica -->
+                    <address class="footer-details">
                         <div class="clinic-details">
-                            <i class="bi bi-geo-alt-fill"></i>
+                            <i
+                                class="bi bi-geo-alt-fill"
+                                aria-hidden="true"
+                            ></i>
 
                             <span>
-                                <h3>Endereço</h3>
-                                <address class="clinic-info">
+                                <strong>Endereço</strong>
+
+                                <p class="clinic-info">
                                     Avenida Senador Salgado Filho, nº 1559,
                                     Tirol, Natal-RN
-                                </address>
+                                </p>
                             </span>
                         </div>
 
-                        <!-- Horário de Funcionamento -->
                         <div class="clinic-details">
-                            <i class="bi bi-clock-fill"></i>
+                            <i class="bi bi-clock-fill" aria-hidden="true"></i>
 
                             <span>
-                                <h3>Atendimento</h3>
+                                <strong>Atendimento</strong>
+
                                 <p class="clinic-info">Seg-Sex 9h às 17h</p>
                             </span>
                         </div>
 
-                        <!-- Contato da Coleta Domiciliar -->
                         <div class="clinic-details">
-                            <i class="bi bi-car-front-fill"></i>
+                            <i
+                                class="bi bi-car-front-fill"
+                                aria-hidden="true"
+                            ></i>
 
                             <span>
-                                <h3>Coleta Domiciliar</h3>
+                                <strong>Coleta Domiciliar</strong>
+
                                 <p class="clinic-info">(84) 9 9999-9999</p>
                             </span>
                         </div>
-                    </div>
+                    </address>
                 </footer>
             </div>
         </div>

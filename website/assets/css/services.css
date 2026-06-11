@@ -1,0 +1,133 @@
+#table-hours td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#table-hours .hours {
+    color: var(--primary-color);
+
+    text-align: center;
+
+    font-size: smaller;
+    font-weight: bold;
+}
+
+#table-hours .bi-x-lg {
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+.appointment-services {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.appointment {
+    background-color: var(--primary-color);
+    color: var(--white-text);
+
+    padding: 5px;
+
+    border-radius: var(--radius-md);
+
+    font-size: xx-small;
+}
+
+/* Planos */
+
+.plan-price {
+    padding: 40px;
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    color: var(--secondary-text);
+}
+
+.price .edges {
+    font-size: small;
+}
+
+.price .central {
+    font-size: 50px;
+}
+
+.plan-price p {
+    color: var(--secondary-color);
+    font-size: larger;
+}
+
+.plan-benefits {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.benefits {
+    margin: auto;
+    padding-bottom: 10px;
+
+    color: var(--secondary-text);
+
+    border-bottom: 1px solid #ddd;
+}
+
+.benefits .bi {
+    color: var(--secondary-color);
+}
+
+.table-footer {
+    background-color: var(--table-background);
+    text-align: center;
+}
+
+.plan-signup-btn {
+    width: 120px;
+
+    margin: 25px;
+    padding: 15px;
+
+    background-color: var(--primary-color);
+    color: var(--white-text);
+
+    border: none;
+    border-radius: var(--radius-sm);
+
+    cursor: pointer;
+
+    box-shadow: var(--shadow-sm);
+
+    transition: transform var(--transition);
+}
+
+.plan-signup-btn:hover {
+    transform: scale(1.1);
+}
+
+/* ================================================== RESPONSIVIDADE ================================================== */
+
+@media (max-width: 1024px) {
+    .appointment-services {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .plan-price {
+        padding: 20px;
+    }
+
+    .price .central {
+        font-size: 32px;
+    }
+
+    .plan-signup-btn {
+        width: 100px;
+        margin: 15px;
+    }
+}
