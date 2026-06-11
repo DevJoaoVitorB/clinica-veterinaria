@@ -79,7 +79,9 @@ vida-de-pet/
 │   ├── services.html        # Página de serviços, horários e planos
 │   └── contact.html         # Página de contato e localização
 │
-├── website_gifs/
+├── docs/                    # Documentação do projeto
+│   │
+│   └── pages/               # Imagens das páginas construidas
 │
 └── README.md
 ```
@@ -127,19 +129,19 @@ index.html
 
 ### Tela Inicial
 
-![Tela Inicial](website_gifs/homepage.gif)
+![Tela Inicial](docs/pages/homepage.png)
 
 ### Sobre a Clínica
 
-![Sobre a Clínica](website_gifs/about.gif)
+![Sobre a Clínica](docs/pages/about.png)
 
 ### Horários e Planos
 
-![Horários e Planos](website_gifs/services.gif)
+![Horários e Planos](docs/pages/services.png)
 
 ### Contato
 
-![Contato](website_gifs/contact.gif)
+![Contato](docs/pages/contact.png)
 
 <br>
 
