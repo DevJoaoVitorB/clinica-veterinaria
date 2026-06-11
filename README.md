@@ -69,7 +69,6 @@ Características da arquitetura:
 vida-de-pet/
 │
 ├── website/                 # Código-fonte do site
-│   │
 │   ├── assets/              # Arquivos estáticos utilizados pela aplicação
 │   │   ├── css/             # Folhas de estilo CSS
 │   │   └── images/          # Imagens utilizadas nas páginas
@@ -80,7 +79,6 @@ vida-de-pet/
 │   └── contact.html         # Página de contato e localização
 │
 ├── docs/                    # Documentação do projeto
-│   │
 │   └── pages/               # Imagens das páginas construidas
 │
 └── README.md
