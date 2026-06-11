@@ -90,9 +90,10 @@ vida-de-pet/
 
 Antes de iniciar, você precisará ter instalado:
 
-* Navegador Web (Chrome, Brave, Microsoft Edge, ...)
-* Git (opcional)
-* Editor de código (recomendado: VS Code)
+* Navegador Web (Google Chrome, Brave ou Microsoft Edge)
+* [Git](https://git-scm.com/install//windows)
+* [Visual Studio Code (recomendado)](https://code.visualstudio.com/)
+* Extensão Live Server (recomendado)
 
 <br>
 
