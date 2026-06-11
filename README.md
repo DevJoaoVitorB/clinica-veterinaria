@@ -1,4 +1,4 @@
-# 🚀 Vida de Pet - Clínica Veterinária
+# 🐕 Vida de Pet - Clínica Veterinária
 
 Site institucional fictício de uma clínica veterinária desenvolvido como desafio prático proposto no **Módulo II - HTML I: Conceitos Básicos do curso de HTML5** da [**DIO.me**](https://www.dio.me/). O projeto tem como objetivo aplicar os principais conceitos de HTML na construção de páginas web estruturadas, navegáveis e funcionais.
 
