@@ -108,7 +108,7 @@ git clone https://github.com/DevJoaoVitorB/clinica-veterinaria.git
 ### 2. Entrar na Pasta
 
 ```bash
-cd website
+cd clinica-veterinaria
 ```
 
 ### 3. Executar o Projeto
